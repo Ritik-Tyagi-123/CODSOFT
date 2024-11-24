@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-/*creating variable to use color many times*/
-:root {
-    --primary-color: #abff00;
-    --primary-color-dark: #abff00;
-    --secondary-color: #abff00;
-    --text-dark: #fff;
-    --text-light: #6b7280;
-    --extra-light: #faf5ff;
-    --max-width: 1200px;
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -46,11 +35,11 @@ nav {
 nav .logo a {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--primary-color);
+    color: #abff00;
     transition: 0.3s;
 }
 nav .logo a:hover {
-    color: var(--primary-color-dark);
+    color: #abff00;
 }
 
 nav .checkbox {
@@ -62,7 +51,7 @@ nav input {
 }
 nav .checkbox i {
     font-size: 2rem;
-    color: var(--primary-color);
+    color: #abff00;
     cursor: pointer;
 }
 
@@ -79,14 +68,14 @@ ul li a {
     border: 2px solid transparent;
     text-decoration: none;
     font-weight: 600;
-    color: var(--text-dark);
+    color: #ffffff;
     transition: 0.3s;
 }
 
 ul li a:hover {
     border-top-color: #000000;
     border-bottom-color: #000000;
-    color: var(--secondary-color);
+    color: #abff00;
 }
 
 .section {
@@ -95,7 +84,7 @@ ul li a:hover {
 
 .section__container {
     min-height: 100vh;
-    max-width: var(--max-width);
+    max-width: 1200px;
     margin: auto;
     padding: 1rem;
     display: grid;
@@ -120,7 +109,7 @@ ul li a:hover {
     font-size: 2.5rem;
     font-weight: 400;
     line-height: 3rem;
-    color: var(--text-dark);
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
@@ -145,29 +134,29 @@ ul li a:hover {
     letter-spacing: 2px;
     padding: 1rem 2rem;
     outline: none;
-    border: 2px solid var(--primary-color);
+    border: 2px solid #abff00;
     border-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
 }
 
 .hire__me {
-    background-color: var(--primary-color);
+    background-color: #abff00;
     color: #000000;
 }
 
 .hire__me:hover {
-    background-color: var(--primary-color-dark);
+    background-color: #abff00;
 }
 
 .portfolio {
-    color: var(--primary-color);
+    color: #abff00;
     background-color: black;
 }
 
 /*edit current*/
 .portfolio:hover {
-    background-color: var(--primary-color-dark);
+    background-color: #abff00;
 
     color: #000000;
 }
@@ -175,6 +164,7 @@ ul li a:hover {
 .image {
     display: grid;
     place-items: center;
+
 }
 
 .image img {
@@ -200,8 +190,45 @@ ul li a:hover {
 /* add Common Section Styling */
 section {
     padding: 4rem 0;
-    background-color: #000000;
+    background-color: black;
 }
+
+#about {
+    background-color: black;
+}
+
+#about h1 {
+    text-align: left;
+}
+
+#skills {
+    background-color: #0B121F;
+}
+
+#skillz {
+    background-color: #0B121F;
+}
+
+#projects {
+    background-color: black;
+}
+
+#experience {
+    background-color: black;
+}
+
+#testimonials {
+    background-color: black;
+}
+
+#certifications {
+    background-color: #151515;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
 
 p {
     color: #D3D3D3;
@@ -263,7 +290,29 @@ h5{
 
 
 /*######################################*/
+.social-links i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid #abff00;
+    border-radius: 50%;
+    color: #abff00;
+    margin: 5px 15px;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+}
 
+.social-links i:hover{
+    scale: 1.3;
+    color: black;
+    background-color: #abff00;
+    filter: drop-shadow(0 0 10px #abff00);
+}
+
+/*#################################################*/
 
 /* Projects Section */
 .project-grid {
