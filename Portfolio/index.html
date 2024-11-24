@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="styles.css">
   <title>Portfolio@RitikTyagi</title>
 </head>
 <body>
@@ -28,7 +28,7 @@
 <section class="section">
   <div class="section__container">
     <div class="content">
-      <p class="subtitle">HELLO</p>
+      <p class="subtitle">Hi, </p>
       <h1 class="title">
         I'm <span>Ritik Tyagi<br />a</span> Full Stack Developer
       </h1>
@@ -38,17 +38,34 @@
         Beyond coding, I lead tech explorations through BlackBoom Tech, my ethical hacking and pentesting channel.
         Fueled by curiosity, I thrive in learning new tools and continuously refine my skill set. Where I lack experience, my determination fills the gap.  </p>
       </p>
+
+<!--      ########################-->
+
+<!--      #########################-->
+
       <div class="action__btns">
         <button class="hire__me">Hire Me</button>
         <button class="portfolio">Download CV</button>
       </div>
+
+      <br>
+
+      <div class="social-links">
+
+        <!--                    add  icon -->
+        <a href="https://github.com/Ritik-Tyagi-123/CodSoft" data-aos="fade-up" ><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.facebook.com/" data-aos="fade-up" ><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/rkritiktyagi/" data-aos="fade-up" ><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.x.com/" data-aos="fade-up" ><i class="fa-brands fa-twitter"></i></a>
+      </div>
+
     </div>
     <div class="image">
       <img src="main.png" alt="profile" />
     </div>
   </div>
 </section>
-
+<!-- adDing ABOUT SECTION -->
 <section id="about">
   <div class="container">
     <h1>About</h1>
@@ -65,10 +82,13 @@
   </div>
 </section>
 
+<!-- add skill sect.. 1 & 2-->
 <section id="skills">
   <div class="container">
-    <h2>Skills & Expertise</h2>
+    <h1>Skills & Expertise</h1>
     <div class="skills-grid">
+
+<!--       skill card 1 -->
       <div class="skill-card">
         <h3>Frontend Development</h3>
         <p>HTML5</p>
@@ -84,6 +104,8 @@
           <div class="progress" style="width: 80%"></div>
         </div>
       </div>
+
+<!--      skill card 2 -->
       <div class="skill-card">
         <h3>Backend Development</h3>
         <p>NodeJS</p>
@@ -99,8 +121,10 @@
           <div class="progress" style="width: 80%"></div>
         </div>
       </div>
+
+<!--      skill card 3-->
       <div class="skill-card">
-        <h3>Tools & Technologies(Version Control)</h3>
+        <h3>Version Control</h3>
         <p>Git</p>
         <div class="progress-bar">
           <div class="progress" style="width: 85%"></div>
@@ -116,10 +140,68 @@
       </div>
     </div>
   </div>
+
+
+
+
+
+</section>
+<section id="skillz">
+  <div class="container">
+    <div class="skills-grid">
+      <!--       skill card 4 -->
+      <div class="skill-card">
+        <h3>Linux/UNIX Fundamentals</h3>
+        <p>Shell Scripting</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 75%"></div>
+        </div>
+        <p>User & Group Management</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%"></div>
+        </div>
+        <p>Command Line Interface(CLI)</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 80%"></div>
+        </div>
+      </div>
+
+      <!--      skill card 5 -->
+      <div class="skill-card">
+        <h3>Networking</h3>
+        <p>Network security</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 65%"></div>
+        </div>
+        <p>Intrusion detection</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 60%"></div>
+        </div>
+        <p>Incident Response</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 55%"></div>
+        </div>
+      </div>
+
+      <!--      skill card 6 -->
+      <div class="skill-card">
+        <h3>Cyber Security</h3>
+        <p>Offensive Security</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 70%"></div>
+        </div>
+        <p>Defensive Security</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 40%"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
 </section>
 
-
-
+<!--project section begins here -->
 <section id="projects">
   <div class="container">
     <h2>My Projects</h2>
@@ -148,7 +230,6 @@
     </div>
   </div>
 </section>
-
 
 <section id="experience">
   <div class="container">
@@ -255,7 +336,11 @@
   </div>
 </section>
 
-
+<!--java script for icon adding-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({offset:0});
+</script>
 
 </body>
 </html>
